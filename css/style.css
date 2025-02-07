@@ -102,3 +102,47 @@ h1 {
   color: var(--tomato);
   text-decoration: none;
 }
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* .form-field {
+  grid-column: 2 / 4;
+} */
+
+input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: var(--onyx);
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+  grid-column: 2 / 4;
+}
+
+label {
+  grid-column: 1 / 2;
+}
+
+input::placeholder {
+  color: var(--alabaster);
+}
+
+.create-account {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--sandy-brown);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 24px;
+  font-family: inherit;
+}
