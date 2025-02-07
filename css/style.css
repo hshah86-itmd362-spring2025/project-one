@@ -81,3 +81,24 @@ body {
   flex: 1;
   padding: 3rem;
 }
+
+.form-header {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.login-link {
+  color: black;
+  font-size: 0.875rem;
+}
+
+.login-link a {
+  color: var(--tomato);
+  text-decoration: none;
+}
