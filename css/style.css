@@ -146,3 +146,30 @@ input::placeholder {
   margin-bottom: 24px;
   font-family: inherit;
 }
+
+.divider {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: black;
+  margin: 0 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons img {
+  max-width: 2.5rem;
+  cursor: pointer;
+}
