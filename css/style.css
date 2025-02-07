@@ -173,3 +173,53 @@ input::placeholder {
   max-width: 2.5rem;
   cursor: pointer;
 }
+
+/* Mobile */
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-section {
+    min-height: 300px;
+  }
+
+  .back-link {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .hero-text {
+    font-size: 24px;
+    max-width: 200px;
+    bottom: 32px;
+  }
+
+  .right-section {
+    padding: 24px 16px;
+  }
+
+  .form-header h1 {
+    font-size: 24px;
+  }
+
+  input {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .create-account {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .social-icons {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .divider {
+    font-size: 12px;
+    margin: 20px 0;
+  }
+}
