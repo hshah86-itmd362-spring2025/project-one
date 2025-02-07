@@ -223,3 +223,30 @@ input::placeholder {
     margin: 1.25rem 0;
   }
 }
+
+/* Tablet */
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+    border-radius: 0;
+  }
+
+  .left-section {
+    min-height: 400px;
+  }
+
+  .hero-text {
+    font-size: 1.75rem;
+    max-width: 250px;
+  }
+
+  .right-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .social-icons {
+    grid-template-columns: 1fr;
+  }
+}
