@@ -181,3 +181,35 @@ input::placeholder {
   max-width: 2.5rem;
   cursor: pointer;
 }
+
+/* Tablet styles */
+@media screen and (min-width: 510px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: var(--onyx);
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 750px;
+    border-radius: 10px;
+  }
+
+  .left-section {
+    max-height: fit-content;
+  }
+
+  #hero-cover {
+    height: 100%;
+    width: 100%;
+  }
+
+  .right-section {
+    padding: 1rem 1.5rem;
+  }
+}
